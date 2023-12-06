@@ -13,6 +13,7 @@ percapita.head()
 percapita = pd.read_excel(url, sheet_name='fontes')
 percapita.head()
 
-intervalo = pd.read_excel(url, sheet_name='emissoes_co2', usecols='A:D')
+intervalo = pd.read_excel(url, sheet_name='emissoes_C02', usecols='A:D')
 intervalo
 intervalo.head()
+
